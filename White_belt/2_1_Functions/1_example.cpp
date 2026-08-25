@@ -1,14 +1,19 @@
 #include <iostream>
+#include <vector>
+#include <string> 
 using namespace std;
 
-int sum(int X, int Y)
+bool Contains(vector<string> words, string w)
 {
-    return X + Y;
+    for (auto s: words) {
+        if (s == w) {
+            return true;
+        }
+    }
+    return false;
 }
 
 int main() {
-    int x, y;
-    cin >> x >> y;
-    cout << sum(x, y);
+    cout << Contains({"water", "air", "terre"}, "air");
     return 0;
 }

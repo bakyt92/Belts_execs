@@ -1,0 +1,30 @@
+# Compiled object files & binaries
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.dSYM/
+
+# Compiled executables with no extension (common on macOS/Linux)
+# Uncomment if you name outputs without extensions and want them ignored:
+# a.out
+
+# Debug / build artifacts
+*.gch
+*.pch
+build/
+bin/
+
+# macOS
+.DS_Store
+
+# VS Code (keep configs, ignore local overrides)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# Editor temp files
+*.swp
+*~
