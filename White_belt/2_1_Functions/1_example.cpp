@@ -14,6 +14,6 @@ bool Contains(vector<string> words, string w)
 }
 
 int main() {
-    cout << Contains({"water", "air", "terre"}, "air");
+    cout << Contains({"water", "air", "terre"}, "air") << endl;
     return 0;
 }
