@@ -6,6 +6,9 @@
 *.app
 *.dSYM/
 *.venv
+*.env
+*.csv
+*.pyc
 
 # Compiled executables with no extension (common on macOS/Linux)
 # Uncomment if you name outputs without extensions and want them ignored:
